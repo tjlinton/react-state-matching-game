@@ -9,7 +9,7 @@ const Tile = (props) => {
       : null;
   return (
     <div style={color} className="Tile">
-      {!!props.selected || !!props.matched ? <svg /> : null}
+      {!!props.selected || !!props.matched ? <props.svg /> : null}
     </div>
   );
 };
